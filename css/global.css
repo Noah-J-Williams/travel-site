@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+/* nav nav_name nav_link nav_click */
+.nav {
+    display: flex;
+}
+
+/* footer footer_contact footer_heading footer_title footer_text
+footer_hours footer_social footer_img */
