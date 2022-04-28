@@ -32,6 +32,7 @@
 }
 /* card-block card-block_title */
 .card-block {
+    height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;

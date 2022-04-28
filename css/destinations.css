@@ -2,7 +2,7 @@
 .card-holder {
     display: flex;
     justify-content: center;
-    height: 40vw;
+    height: 100vh;
     align-items: flex-start;
 }
 
