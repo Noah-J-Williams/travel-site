@@ -1,11 +1,73 @@
 * {
     box-sizing: border-box;
     font-family: Verdana;
+    /* border: 1px solid red; */
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
 }
 /* nav nav_name nav_link nav_click */
 .nav {
+    position: sticky;
+    background-color: #FFFFFF;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+.nav_name {
+    color: #335576;
+    margin-left: 2rem;
+}
+
+.nav_list {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_link {
+    margin-right: 2rem;
+}
+
 
 /* footer footer_contact footer_heading footer_title footer_text
 footer_hours footer_social footer_img */
+.footer {
+    background-color: #FEFAF5;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_hours {
+    width: 30rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.footer_heading {
+    align-self: flex-start;
+    margin-right: 76%;
+    margin-bottom: 0;
+    color: #335576
+}
+
+.footer_text {
+    margin-right: 1rem;
+    color: #335576;
+}
+
+.footer_title {
+    font-size: 0.8rem;
+    margin-right: 3.5rem;
+    margin-bottom: 0;
+    color: #DB7A4E;
+}
+/* card */

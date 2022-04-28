@@ -1,0 +1,21 @@
+/* hero hero_title hero_text hero_cta hero_img*/
+.hero {
+    background-color: #FEFAF5;
+    display: flex;
+    flex-direction: row;
+}
+
+.hero_title {
+    color: #335576;
+}
+
+.hero_text {
+    color: #335576;
+}
+
+.hero_cta {
+    background-color: #DB7A4E;
+}
+/* card-block card-block_title */
+
+/* card_link card_location */
