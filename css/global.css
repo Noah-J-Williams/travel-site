@@ -13,6 +13,7 @@ body {
 }
 
 ul {
+    padding: 0;
     list-style: none;
 }
 /* nav nav_name nav_link nav_click */
@@ -101,6 +102,9 @@ footer_hours footer_social footer_img */
 }
 /* card */
 .card {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 5vw;
     width: 18vw;
     height: 28vw;
     display: flex;

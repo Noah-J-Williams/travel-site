@@ -1,0 +1,66 @@
+/* card-holder card__title card-holder__title card__activity */
+.card-holder {
+    display: flex;
+    justify-content: center;
+    height: 40vw;
+    align-items: flex-start;
+}
+
+.card-holder__background#hawaii {
+    background-image: url(../assets/Images/hawaii.jpg);
+    background-position: center center;
+    background-size: 100%;
+}
+
+.card-holder__background#iceland {
+    background-image: url(../assets/Images/iceland.jpg);
+    background-position: center center;
+    background-size: 100%;
+}
+
+.card-holder__background#greece {
+    background-image: url(../assets/Images/greece.jpg);
+    background-position: center center;
+    background-size: 100%;
+}
+
+.card-holder__title {
+    padding: 4rem;
+    color: white;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.card__title {
+    font-size: 1rem;
+    text-align: center;
+    border-bottom: 3px solid black;
+    justify-self: flex-start;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.activity-holder {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+.card__activity {
+    background-color: #FEFAF5;
+    text-align: center;
+    justify-self: center;
+    width: 80%;
+    height: 3vw;
+    margin-left: 9%;
+    padding-top: 6%;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+}
