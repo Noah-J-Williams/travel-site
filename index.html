@@ -10,60 +10,70 @@
 </head>
 <body>
     <header class="nav">
-        <h2 class="nav_name"><a class="nav_click" href="./index.html">Travel Site</a></h2>
+        <h2 class="nav__name"><a class="nav__click" href="./index.html">Travel Site</a></h2>
         <nav>
-            <ul class="nav_list">
-                <a class="nav_click" href="./index.html"><li class="nav_link">Home</li></a>
-                <a class="nav_click" href="./pages/hawaii.html"><li class="nav_link">Hawaii</li></a>
-                <a class="nav_click" href="./pages/iceland.html"><li class="nav_link">Iceland</li></a>
-                <a class="nav_click" href="./pages/greece.html"><li class="nav_link">Greece</li></a>
+            <ul class="nav__list">
+                <a class="nav__click" href="./index.html"><li class="nav__link nav__link--current">Home</li></a>
+                <a class="nav__click" href="./pages/hawaii.html"><li class="nav__link">Hawaii</li></a>
+                <a class="nav__click" href="./pages/iceland.html"><li class="nav__link">Iceland</li></a>
+                <a class="nav__click" href="./pages/greece.html"><li class="nav__link">Greece</li></a>
             </ul>
         </nav>
     </header>
     <main class="hero">
-        <h1 class="hero_title">Travelling Comes With Endless Discoveries</h1>
-        <p class="hero_text">Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
-        <a class="hero_cta">Get started</a>
-        <img class="hero_img" src="./assets/Images/hero.png" alt="plane" />
+        <div class="hero-textbox">
+            <h1 class="hero__title">Travelling Comes With Endless Discoveries</h1>
+            <p class="hero__text">Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
+            <a class="hero__cta">Get started</a>
+        </div>
+        <img class="hero__img" src="./assets/Images/hero.png" alt="plane" />
     </main>
-    <section class="card-block">
-        <h3 class="card-block_title">Recommendations</h3>
-        <a class="card_link" href="./pages/hawaii.html">
-            <div class="card">
-                <p class="card_location">Hawaii</p>
+    <section>
+        <h3 class="card-block__title">Recommendations</h3>
+        <div class="card-block">
+            <a class="card__link" href="./pages/hawaii.html">
+                <div class="card" id="hawaii">
+                    <p class="card__location">Hawaii</p>
+                </div>
+            </a>
+            <a class="card__link" href="./pages/iceland.html">
+                <div class="card" id="iceland">
+                    <p class="card__location">Iceland</p>
+                </div>
+            </a>
+            <a class="card__link" href="./pages/greece.html">
+                <div class="card" id="greece">
+                    <p class="card__location">Greece</p>
+                </div>
+            </a>
             </div>
-        </a>
-        <a class="card_link" href="./pages/iceland.html">
-            <div class="card">
-                <p class="card_location">Iceland</p>
-            </div>
-        </a>
-        <a class="card_link" href="./pages/greece.html">
-            <div class="card">
-                <p class="card_location">Greece</p>
-            </div>
-        </a>
     </section>
     <footer class="footer">
-        <div class="footer_contact">
-            <h2 class="footer_heading">Contact</h2>
-            <p class="footer_title">EMAIL</p>
-            <p class="footer_text">info@travelsite.com</p>
+        <div class="footer__contact">
+            <h2 class="footer__heading">Contact</h2>
+            <p class="footer__title">EMAIL</p>
+            <p class="footer__text">info@travelsite.com</p>
         </div>
-        <div class="footer_hours">
-            <h2 class="footer_heading">Hours</h2>
-            <p class="footer_title">MONDAY - FRIDAY</p>
-            <p class="footer_title">SATURDAY</p>
-            <p class="footer_title">SUNDAY</p>
-            <p class="footer_text">9:00 AM - 5:00 PM</p>
-            <p class="footer_text">10:00 AM - 4:00 PM</p>
-            <p class="footer_text">Closed</p>
+        <div class="footer__hours">
+            <h2 class="footer__heading">Hours</h2>
+            <div class="hours-block">
+                <p class="footer__title">MONDAY - FRIDAY</p>
+                <p class="footer__text">9:00 AM - 5:00 PM</p>
+            </div>
+            <div class="hours-block">
+                <p class="footer__title">SATURDAY</p>
+                <p class="footer__text">10:00 AM - 4:00 PM</p>
+            </div>
+            <div class="hours-block">
+                <p class="footer__title">SUNDAY</p>
+                <p class="footer__text">Closed</p>
+            </div>
         </div>
-        <div class="footer_social">
+        <div class="footer__social">
             <h2 class="footer_heading">Social</h2>
-            <a href="https://instagram.com"><img class="footer_img" src="./assets/Icons/icon-instagram.png" alt="instagram"/></a>
-            <a href="https://facebook.com"><img class="footer_img" src="./assets/Icons/icon-facebook.png" alt="facebook"/></a>
-            <a href="https://twitter.com"><img class="footer_img" src="./assets/Icons/icon-twitter.png" alt="twitter"/></a>
+            <a href="https://instagram.com"><img class="footer__insta" src="./assets/Icons/icon-instagram.png" alt="instagram"/></a>
+            <a href="https://facebook.com"><img class="footer__facebook" src="./assets/Icons/icon-facebook.png" alt="facebook"/></a>
+            <a href="https://twitter.com"><img class="footer__twitter" src="./assets/Icons/icon-twitter.png" alt="twitter"/></a>
         </div>
     </footer>
 </body>

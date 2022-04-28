@@ -4,6 +4,10 @@
     /* border: 1px solid red; */
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     margin: 0;
 }
@@ -13,6 +17,9 @@ ul {
 }
 /* nav nav_name nav_link nav_click */
 .nav {
+    width: 100%;
+    margin-right: 5%;
+    top: 0px;
     position: sticky;
     background-color: #FFFFFF;
     display: flex;
@@ -20,18 +27,25 @@ ul {
     justify-content: space-between;
 }
 
-.nav_name {
+.nav__link--current {
+    border-bottom: 3px solid #DB7A4E;
+}
+
+.nav__name {
     color: #335576;
     margin-left: 2rem;
 }
 
-.nav_list {
+.nav__list {
     display: flex;
     flex-direction: row;
 }
 
-.nav_link {
-    margin-right: 2rem;
+.nav__link {
+    padding-bottom: 10%;
+    margin-top: 4%;
+    text-align: center;
+    margin-right: 1rem;
 }
 
 
@@ -40,34 +54,57 @@ footer_hours footer_social footer_img */
 .footer {
     background-color: #FEFAF5;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
-.footer_hours {
-    width: 30rem;
+.footer__hours {
+    width: 50%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-end;
-    justify-content: space-evenly;
 }
 
-.footer_heading {
+.footer__heading {
     align-self: flex-start;
-    margin-right: 76%;
+    margin-right: 60%;
     margin-bottom: 0;
     color: #335576
 }
 
-.footer_text {
+.footer__text {
     margin-right: 1rem;
     color: #335576;
 }
 
-.footer_title {
+.footer__title {
     font-size: 0.8rem;
     margin-right: 3.5rem;
     margin-bottom: 0;
     color: #DB7A4E;
 }
+
+.footer__facebook {
+    width: 8%;
+    margin-right: 5%;
+}
+
+.footer__insta {
+    width: 15%;
+    margin-right: 5%;
+}
+
+.footer__twitter {
+    width: 15%;
+}
 /* card */
+.card {
+    width: 18vw;
+    height: 28vw;
+    display: flex;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 20);
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
